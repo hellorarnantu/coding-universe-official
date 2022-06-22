@@ -1,0 +1,60 @@
+.layout {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.header {
+  background: #fff;
+  box-shadow: 0 8px 24px -2px rgb(0 0 0 / 5%);
+  display: flex;
+  position: relative;
+
+  .titleWrapper {
+    flex: 1 1 0;
+    display: flex;
+    align-items: center;
+
+    .logo {
+      background: url(/star.png) no-repeat;
+      width: 32px;
+      height: 32px;
+      background-size: cover;
+      margin-right: 10px;
+    }
+
+    .titleText {
+      font-size: 24px;
+    }
+  }
+
+  .userInfoWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .user {
+      background: url(/user.png) no-repeat;
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+.contentWrapper {
+  margin: 40px 50px;
+
+  .articleList {
+    background: #fff;
+  }
+
+  .otherInfo {
+    // background: #fff;
+    margin-left: 40px;
+  }
+}
+
+.footer {
+  background: #001529;
+  color: #fff;
+}

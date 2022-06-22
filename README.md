@@ -1,3 +1,15 @@
-# coding-universe-official
-程序员星球官网
+# umi project
 
+## Getting Started
+
+Install dependencies,
+
+```bash
+$ yarn
+```
+
+Start the dev server,
+
+```bash
+$ yarn start
+```
